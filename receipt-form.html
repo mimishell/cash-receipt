@@ -27,58 +27,58 @@
                 <div class="cash-receipt left">Cash Receipt</div>
                 <div class="medium left">
                     <div class="right">
-                        <label>Receipt Number:</label>
-                        <input class="no-style input-receipt-no"type="text">
+                        <label for="receipt-no">Receipt Number:</label>
+                        <input class="no-style input-receipt-no" id="receipt-no" type="text">
                     </div>
                     <div class="right"> 
-                        <label>Date:</label>
-                        <input class="no-style input-date" type="text">
+                        <label for="date">Date:</label>
+                        <input class="no-style input-date" id="date" type="text">
                     </div>
                 </div>
                 <div class="clear"></div>
             </div>
             <div class="content">
                 <div>
-                    <label>Received From</label>
-                    <input type="text" class="no-style input-received-from">
-                    <label>the amount of $</label>
-                    <input type="text" class="no-style input-amount">
+                    <label for="received-from">Received From</label>
+                    <input type="text" class="no-style id="received-from" input-received-from">
+                    <label for="amount">the amount of $</label>
+                    <input type="text" class="no-style id="amount" input-amount">
                 </div>
                 <div>
-                    <label>For</label>
-                    <input type="text" class="no-style input-for">
+                    <label for="for">For</label>
+                    <input type="text" id="for" class="no-style input-for">
                 </div>
                 <div class="payment">
                     <div class="money left">
                         <span class="left">
-                            <label>Current Balance:$</label>
-                            <input type="text" class="no-style input-balance">
+                            <label for="balance">Current Balance:$</label>
+                            <input type="text" class="no-style input-balance" id="balance">
                         </span>
                         <span class="left">
-                            <label>Payment Amount:$</label>
-                            <input type="text" class="no-style input-payment">
+                            <label for="payment">Payment Amount:$</label>
+                            <input type="text" class="no-style input-payment" id="payment">
                         </span>
                         <span class="clear">
-                            <label>Balance Due:$ <label>
-                            <input type="text" class="no-style input-due">
+                            <label for="due">Balance Due:$ <label>
+                            <input type="text" class="no-style input-due" id="due">
                         </span>
                     </div>
                     <table class="right">
                         <tr>
-                            <td><input type="checkbox" value="cash"></td>
-                            <td>Cash</td>
+                            <td><input type="checkbox" id="cash" value="cash"></td>
+                            <td><label for="cash">Cash</label></td>
                         <tr>
                             <td><input type="checkbox" value="cheque"></td>
-                            <td>Cheque</td>
+                            <td><label for="cheque">Cheque<label></td>
                         <tr>
-                            <td><input type="checkbox" value="money-order"></td>
-                            <td>Money Order</td>
+                            <td><input id="money-order" type="checkbox" value="money-order"></td>
+                            <td><label for="money-order">Money Order</label></td>
                         </tr>
                     </table>
                 </div>
             <div class="clear right">
-                <label>Received By:</label>
-                <input type="text" class="no-style">
+                <label for="received">Received By:</label>
+                <input id="received" type="text" class="no-style">
             </div>
             <div class="submit clear right">
                 <button type="submit">submit</button>
